@@ -1,0 +1,19 @@
+Package: auto
+Type: Package
+Title: Run Automatic Package Checks
+Version: 0.1.0
+Author: Nick Golding
+Maintainer: Nick Golding <nick.golding.research@gmail.com>
+Description: A personal package to automate the checks I think are
+    important when reviewing R package Application papers for Methods in
+    Ecology and Evolution. It isn't not designed to be configurable, nor
+    intended as a statement of how all R packages should be implemented.
+License: CC0
+Imports:
+  devtools,
+  remotes,
+  goodpractice
+Remotes: MangoTheCat/goodpractice
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
