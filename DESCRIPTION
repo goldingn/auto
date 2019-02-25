@@ -1,7 +1,7 @@
 Package: auto
 Type: Package
 Title: Run Automatic Package Checks
-Version: 0.1.0
+Version: 0.1.0.9001
 Author: Nick Golding
 Maintainer: Nick Golding <nick.golding.research@gmail.com>
 Description: A personal package to automate the checks I think are
@@ -11,7 +11,7 @@ Description: A personal package to automate the checks I think are
 License: CC0
 Imports:
   devtools,
-  remotes,
+  remotes >= 2.0.0,
   goodpractice
 Remotes: MangoTheCat/goodpractice
 Encoding: UTF-8

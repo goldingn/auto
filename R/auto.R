@@ -6,8 +6,8 @@ get_source <- function (pkg, dir = NULL) {
   dir.create(temp_dir)
 
   pkg_remote <- remotes:::github_remote(pkg)
-  pkg_zip_path <- remotes:::remote_download(pkg_remote)
-  utils::unzip(pkg_zip_path, exdir = temp_dir)
+  pkg_tar_path <- remotes:::remote_download(pkg_remote)
+  utils::untar(pkg_tar_path, exdir = temp_dir)
   src_path <- list.files(temp_dir, full.names = TRUE)[1]
 
   if (!is.null(dir)) {
