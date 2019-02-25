@@ -11,7 +11,7 @@ Description: A personal package to automate the checks I think are
 License: CC0
 Imports:
   devtools,
-  remotes >= 2.0.0,
+  remotes >= 2.0,
   goodpractice
 Remotes: MangoTheCat/goodpractice
 Encoding: UTF-8
